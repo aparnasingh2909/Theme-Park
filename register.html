@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="" width="100px">
+            <h4>&nbsp;Theme Park</h4>
+        </div>
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="#" style="color: yellow;">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="vedio1">
+        <video src="rideVedio.mp4" width="100%" autoplay muted loop></video>
+        <div class="contain">
+            <h1>Registration Form</h1>
+            <div class="form1">
+                <form action="noaction.php">
+                    <div class="form-group">
+                        <label for="Name">First Name : &nbsp;</label>
+                        <input type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label for="Name1">Last Name : &nbsp;</label>
+                        <input type="text">
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <label for="Address">Address : &nbsp;</label>
+                        <input type="text">
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <label for="phone">Mobile Number : &nbsp;</label>
+                        <input type="text">
+                        <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;Email : &nbsp;</label>
+                        <input type="email">
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <label for="gender">Gender : &nbsp;</label>
+                        Male&nbsp;&nbsp;<input type="radio" name="myGender"> &nbsp;Female&nbsp;&nbsp;<input type="radio"
+                            name="myGender">
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <label for="theme">Themepark : &nbsp;</label>
+                        <select name="Shift" id="shift">
+                            <option value="morn" selected>Disney World's Magic Kingdom</option>
+                            <option value="even">Schlitterbahn Water Park</option>
+                            <option value="even">Kings Island</option>
+                            <option value="even">Dells Water Parks</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <label for="interest">Are you interested? : &nbsp;</label>
+                        Yes&nbsp;&nbsp;<input type="radio" name="myGender"> &nbsp;No&nbsp;&nbsp;<input type="radio"
+                            name="myGender">
+                    </div>
+                    <br>
+                    <div class="buton">
+                        <button class="btn">Register</button>
+                    </div>
+                    <br>
+                    <div class="last">
+                        <p>It's better to burn out than to fade away.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
